@@ -1,0 +1,9 @@
+1. pet abilities not taken into account
+2. new pets generated not taken into account (honey/mushroom)
+3. temp health not taken into account (cupcake)
+4. sleeping pill not taken into account
+5. damage reduction not taken into account (melon/garlic)
+6. canned food not taken into account
+7. chili not taken into account
+8. chocolate not taken into account
+9. one-time damage increase not taken into account (steak)
