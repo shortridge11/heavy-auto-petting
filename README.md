@@ -4,11 +4,9 @@ Aaron if you're confused why I added you we're trying to 'solve' super auto pets
 
 # heavy-auto-petting
 
-## Project setup
-```
-npm install
-```
+Just for ease of use I'm thinking of using javascript (per usual) so we can host a UI in a webpage from github. I was thinking vue frontend with javascript processing for the "backend". Thoughts?
 
+<<<<<<< HEAD
 ### Compiles and hot-reloads for development
 ```
 npm run serve
