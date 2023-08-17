@@ -1,0 +1,15 @@
+Things to know about Vue:
+    Each .vue file has a specific layout ->
+    <template>
+        <div>
+        </div>
+    </template>
+    Please note that there is a single div inside each template. There can only be one div in the template, everything else needs to be contained in that first div.
+
+
+1. create scss setup
+2. import all super auto pet images in /src/assets folder
+3. App.vue contains the main app, it's an image and the main-page component. We need to delete the image and add 3 sections. Current pets, shop pets and shop food.
+4. Using Bootstrap and the row/col setup create a general layout of where components will go.
+5. Create a component with just a word or something in it for each of the sections and place them where they should go according to the layout of the SAP app.
+6. Grab the background for the super auto pets regular app background and set it as the background for the App.vue class
