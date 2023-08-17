@@ -1,6 +1,5 @@
 <template>
     <div>
-      <img alt="Vue logo" src="./assets/logo.png">
         <mainPage msg="Pick your Poison"/>
     </div>
 </template>
@@ -24,5 +23,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-image: url('./assets/shop-background.webp');
 }
 </style>
