@@ -1,6 +1,5 @@
 <template>
-    <div>
-      <img alt="Vue logo" src="./assets/logo.png">
+    <div class="main-wrapper">
         <mainPage msg="Pick your Poison"/>
     </div>
 </template>
@@ -17,7 +16,7 @@ export default {
 </script>
 
 <style>
-#app {
+.main-wrapper {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
