@@ -9,7 +9,10 @@ Things to know about Vue:
 
 1. create scss setup
 2. import all super auto pet images in /src/assets folder
+	JP - All Pets & Items imported for Turtle Pack.
 3. App.vue contains the main app, it's an image and the main-page component. We need to delete the image and add 3 sections. Current pets, shop pets and shop food.
+	JP - Consider two addition sections.  At the top, a section for Gold, (HP), (Wins), Turn.  At the bottom, a section with buttons: Re-roll & End Turn.
 4. Using Bootstrap and the row/col setup create a general layout of where components will go.
 5. Create a component with just a word or something in it for each of the sections and place them where they should go according to the layout of the SAP app.
 6. Grab the background for the super auto pets regular app background and set it as the background for the App.vue class
+	JP - Background added.  Doesn't fill webpage.
