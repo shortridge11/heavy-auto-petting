@@ -1,24 +1,25 @@
 <template>
     <div class="main-wrapper">
-        <mainPage msg="Pick your Poison"/>
+        <!-- <mainPage msg="Pick your Poison"/> -->
+		<shopPage />
     </div>
 </template>
 
 <script>
-import mainPage from './components/main-page.vue'
+import shopPage from  './components/shop-page.vue'
 
 export default {
   name: 'App',
   components: {
-    mainPage
+    shopPage
   }
 }
 </script>
 
 <style>
 .main-wrapper {
-  background-image: url('./assets/shop-background.webp');
-  background-size: cover;
-  height: 100vh;
+	/* border: 5px solid green; */
+	height: 100%;
 }
+
 </style>
