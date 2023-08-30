@@ -5,19 +5,19 @@
 				<span> Pre Team Spacer </span>
 			</div>
 			<div class="col-1 animal-col">
-				<img class="team-animal" src="../assets/turtle-pack/pets/Badger.webp" />
+				<itemDisplay pet-type="Beaver" />
 			</div>
 			<div class="col-1 animal-col">
-				<img class="team-animal" src="../assets/turtle-pack/pets/Monkey.webp" />
+				<itemDisplay pet-type="Monkey" />
 			</div>
 			<div class="col-1 animal-col">
-				<img class="team-animal" src="../assets/turtle-pack/pets/Crocodile.webp" />
+				<itemDisplay pet-type="Crocodile" />
 			</div>
 			<div class="col-1 animal-col">
-				<img class="team-animal" src="../assets/turtle-pack/pets/Whale.webp" />
+				<itemDisplay pet-type="Whale" />
 			</div>
 			<div class="col-1 animal-col">
-				<img class="team-animal" src="../assets/turtle-pack/pets/Deer.webp" />
+				<itemDisplay pet-type="Deer" />
 			</div>
 			<div class="col-5">
 				<span> Post Team Spacer </span>
@@ -27,10 +27,15 @@
 </template>
 
 <script>
+import itemDisplay from  '../components/item-display.vue'
+
 export default {
   name: 'team-data',
   props: {
     msg: String
+  },
+  components: {
+	itemDisplay
   }
 }
 </script>
