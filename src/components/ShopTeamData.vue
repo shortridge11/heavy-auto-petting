@@ -26,16 +26,16 @@
 	</div>
 </template>
 
-<script>
+<script scoped>
 export default {
-  name: 'team-data',
+  name: 'ShopTeamData',
   props: {
     msg: String
   }
 }
 </script>
 
-<style>
+<style scoped>
 #team-container {
 	height: 100%;
 	padding: 0;

@@ -63,11 +63,11 @@
 </template>
 
 <script>
-import shopTeamData from  '../components/shop-team-data.vue'
-import shopOfferData from  '../components/shop-offer-data.vue'
+import shopTeamData from  '../components/ShopTeamData.vue';
+import shopOfferData from  '../components/ShopOfferData.vue';
 
 export default {
-  name: 'shop-container',
+  name: 'ShopPage',
   props: {
     msg: String
   },
@@ -78,7 +78,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #shop-container {
   background-image: url('../assets/shop-background.webp');
   background-size: cover;

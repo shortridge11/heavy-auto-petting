@@ -2,6 +2,13 @@ Things to know about Vue:
     Each .vue file has a specific layout ->
     <template>
         <div>
+          <!-- inside this first div in the template there can be anything else, including 1000000 divs like below -->
+          <div>div1</div>
+          <div>div2</div>
+          <div>div3</div>
+          <div>....</div>
+          <div>div1000000</div>
+          <span>any tags are fine</span>
         </div>
     </template>
     Please note that there is a single div inside each template. There can only be one div in the template, everything else needs to be contained in that first div.
