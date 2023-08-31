@@ -12,7 +12,7 @@ import { RouterView } from 'vue-router'
 
 <style lang="scss">
 .app {
-    background-image: url('./assets/layout/background.webp');
+    background-image: url('./assets/images//layout/background.webp');
     padding: 0;
     margin: 0;
   }

@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import PetDisplay from  './components/PetDisplay.vue'
+import PetDisplay from  './PetDisplay.vue';
 
 export default {
   name: 'CurrentLineup',

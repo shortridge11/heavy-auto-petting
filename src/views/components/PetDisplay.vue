@@ -2,13 +2,13 @@
 	<div id="pet-container">
 		<div class="row">
 			<div class="col-12">
-				<img src="../../assets/layout/xp0.png" />
+				<img src="../../assets/images//layout/xp0.png" />
 			</div>
 			<div class="col-12">
 				<img :src="getPetPath()" />
 			</div>
 			<div class="col-12">
-				<img src="../../assets/layout/animal-stats-template.png" />
+				<img src="../../assets/images/layout/animal-stats-template.png" />
 			</div>
 		</div>
 	</div>
