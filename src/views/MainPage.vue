@@ -1,10 +1,8 @@
 <template>
-	<div id="shop-container" class="container-fluid">
-		<div class="row shop-page-row" style="height:12vh;">		
-		
+	<div class="main-page">
+		<div class="row">		
 			<div class="col-4">
-				<span> Game Data Comtainer </span>
-				<!-- <game-data></game-data> -->
+				<span> Game Data Container </span>
 			</div>
 			
 			<div class="col-4">
@@ -16,37 +14,37 @@
 			</div>
 		</div>
 	
-		<div class="row shop-page-row" style="height:20vh;">
+		<div class="row">
 			<div class="col-12">
 				<span> Spacer Row between Game-Data and Team </span>
 			</div>
 		</div>
 
-		<div class="row shop-page-row" style="height:22vh;">	
+		<div class="row">	
 			<div class="col-12">
-				<shopTeamData />
+				<current-lineup />
 			</div>
 		</div>
 		
-		<div class="row shop-page-row">
+		<div class="row">
 			<div class="col-12">
 				<span> Spacer Row between Team and Shops </span>
 			</div>
 		</div>
 		
-		<div class="row shop-page-row">
+		<div class="row">
 			<div class="col-12">
-				<shopOfferData />
+				<shop-pets />
 			</div>
 		</div>
 		
-		<div class="row shop-page-row">
+		<div class="row">
 			<div class="col-12">
 				<span> Spacer Row between Shops and Bottom Row </span>
 			</div>
 		</div>
 		
-		<div class="row shop-page-row">
+		<div class="row">
 			<div class="col">
 				<span> Roll Button </span>
 			</div>
@@ -63,8 +61,8 @@
 </template>
 
 <script>
-import shopTeamData from  '../components/ShopTeamData.vue';
-import shopOfferData from  '../components/ShopOfferData.vue';
+import CurrentLineup from './components/CurrentLineup.vue';
+import ShopPets from './components/ShopPets.vue';
 
 export default {
   name: 'ShopPage',
@@ -72,23 +70,12 @@ export default {
     msg: String
   },
   components: {
-    shopTeamData,
-	shopOfferData
+    CurrentLineup,
+	ShopPets
   }
 }
 </script>
 
-<style scoped>
-#shop-container {
-  background-image: url('../assets/shop-background.webp');
-  background-size: cover;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  /* border: 3px solid red; */
-}
+<style scoped lang="scss">
 
-.shop-page-row {
-	width: 100% /* Does nothing right now */
-}
 </style>

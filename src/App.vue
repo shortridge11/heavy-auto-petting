@@ -1,17 +1,24 @@
+import 
 <script setup>
 import { RouterView } from 'vue-router'
-import ShopPage from './views/ShopPage.vue'
+
 </script>
 
 <template>
-  <div class="main-wrapper">
-    <shop-page />
+  <div class="app">
+    <RouterView />
   </div>
-  <RouterView />
 </template>
 
-<style scoped>
-.main-wrapper {
-	height: 100%;
+<style lang="scss">
+.app {
+    background-image: url('./assets/images//layout/background.webp');
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+  margin:0;
+  padding: 0;
 }
 </style>

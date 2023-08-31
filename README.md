@@ -55,3 +55,13 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+
+### SCSS/CSS Style Guidelines ###
+1. Never use !important
+2. Never use id selectors for styling (#id)
+3. Never use style="" on a component
+4. Always put styling classes in scss files unless they apply to just that single component, then make sure you put <style scoped lang="scss"> as the style tag to ensure those styles don't leak out of that specific component
+5. Always use kebab-case for class names
+6. Always use bootstrap classes before creating your own custom class
+7. Never hardcode colors in a page, put them in the _colors.scss file and reference them that way
