@@ -10,13 +10,13 @@
         {{ cardHeight }} <Slider v-model="cardHeight" :lazy="false" orientation="vertical" :direction="rtl" :min="12" :max="36" />
       </div>
       <div class="col-3">
-        <PetDisplay petType="Beaver" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"/>
+        <PetDisplay petType="Beaver" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" petAttack="3" petHealth="2" />
       </div>
       <div class="col-3">
-        <PetDisplay petType="Dragon" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"/>
+        <PetDisplay petType="Dragon" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" petAttack="50" petHealth="50" />
       </div>
       <div class="col-3">
-        <PetDisplay petType="Deer" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"/>
+        <PetDisplay petType="Deer" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" petAttack="1" petHealth="1" />
       </div>
       <div class="col-2">
         <!-- spacer -->
