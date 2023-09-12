@@ -5,19 +5,19 @@
 				<span> Pre Offers Spacer </span>
 			</div>
 			<div class="col-1 offer-col">
-				<img class="offer-img" src="../../assets/images/turtle-pack/pets/Dragon.webp" />
+				<img class="offer-img" src="../../assets/images/pets/Dragon.webp" />
 			</div>
 			<div class="col-1 offer-col">
-				<img class="offer-img" src="../../assets/images/turtle-pack/pets/Duck.webp" />
+				<img class="offer-img" src="../../assets/images/pets/Duck.webp" />
 			</div>
 			<div class="col-1 offer-col">
-				<img class="offer-img" src="../../assets/images/turtle-pack/pets/Gorilla.webp" />
+				<img class="offer-img" src="../../assets/images/pets/Gorilla.webp" />
 			</div>
 			<div class="col-5">
 				<span> Between Offers Spacer</span>
 			</div>
 			<div class="col-1 offer-col">
-				<img class="offer-img" src="../../assets/images/turtle-pack/items/Sleeping_Pill.webp" />
+				<img class="offer-img" src="../../assets/images/items/Sleeping_Pill.webp" />
 			</div>
 			<div class="col-1">
 				<span> Post Offers Spacer</span>
