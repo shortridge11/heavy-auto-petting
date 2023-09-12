@@ -67,9 +67,9 @@ export default {
 	isOpponent: function () {
 		return this.petOwner === 'opponent';
 	},
-    getPetImagePath: function () {
-      return '/src/assets/images/turtle-pack/pets/' + this.petName + '.webp';
-    },
+	getPetImagePath: function () {
+	  return '/src/assets/images/turtle-pack/pets/' + this.petName + '.webp';
+	},
 	getCardStyle: function () {
 		return 'width:' + this.cardWidth + 'rem;height:' + this.cardHeight + 'rem';
 	},

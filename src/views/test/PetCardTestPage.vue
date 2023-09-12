@@ -1,28 +1,41 @@
 <template>
+  <br/>
+  <br/>
 	<div class="container animal-card-test">
     <div class="row">
-      <div class="col-12">
-        {{ cardWidth }} <Slider v-model="cardWidth" :lazy="false" :min="6" :max="24" />
+      <div class="col-1">
+        <!-- empty -->
+      </div>
+      <div class="col-10">
+        <slider v-model="cardWidth" :lazy="false" :min="6" :max="24" />
+      </div>
+      <div class="col-1">
+        <!-- empty -->
       </div>
     </div>
     <div class="row">
       <div class="col-1">
-        {{ cardHeight }} <Slider v-model="cardHeight" :lazy="false" orientation="vertical" :direction="rtl" :min="12" :max="36" />
+        <slider v-model="cardHeight" :lazy="false" orientation="vertical" :min="12" :max="36" />
       </div>
       <div class="col-2">
-        <PetCard petName="Deer" petOwner="user" :petAttack="1" :petHealth="1" :petXp="0" />
+        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Deer" petOwner="user" :petAttack="1" :petHealth="1" :petXp="0" />
       </div>
       <div class="col-2">
-        <PetCard petName="Badger" petOwner="user" :petAttack="3" :petHealth="2" :petXp="0" />
+        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Badger" petOwner="user" :petAttack="3" :petHealth="2" :petXp="0" />
       </div>
       <div class="col-2">
-        <PetCard petName="Scorpion" petOwner="user" :petAttack="1" :petHealth="1" :petXp="0" />
+        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Scorpion" petOwner="user" :petAttack="1" :petHealth="1" :petXp="0" />
       </div>
       <div class="col-2">
-        <PetCard petName="Dragon" petOwner="opponent" :petAttack="50" :petHealth="44" :petXp="1"  />
+        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Dragon" petOwner="opponent" :petAttack="50" :petHealth="44" :petXp="1"  />
       </div>
       <div class="col-2">
-        <PetCard petName="Zombie_Fly" petOwner="opponent" :petAttack="3" :petHealth="2" :petXp="0" />
+        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Zombie_Fly" petOwner="opponent" :petAttack="3" :petHealth="2" :petXp="0" />
       </div>
       <div class="col-1">
         <!-- spacer -->
@@ -44,14 +57,20 @@ export default {
     PetCard,
     Slider
   },
-  /*methods: {
-  },*/
-  /*data() {
+  methods: {
+    getCardWidth: function () {
+      return this.cardWidth;
+    },
+    getCardHeight: function () {
+      return this.cardHeight;
+    },
+  },
+  data() {
     return {
       cardWidth: 12,
       cardHeight: 18
     }
-  }*/
+  }
 }
 </script>
 
