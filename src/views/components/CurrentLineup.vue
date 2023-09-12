@@ -5,19 +5,19 @@
 				<span> Pre Team Spacer </span>
 			</div>
 			<div class="col-1 animal-col">
-				<PetCard pet-type="Beaver" />
+				<pet-card pet-type="Beaver" />
 			</div>
 			<div class="col-1 animal-col">
-				<PetCard pet-type="Monkey" />
+				<pet-card pet-type="Monkey" />
 			</div>
 			<div class="col-1 animal-col">
-				<PetCard pet-type="Crocodile" />
+				<pet-card pet-type="Crocodile" />
 			</div>
 			<div class="col-1 animal-col">
-				<PetCard pet-type="Whale" />
+				<pet-card pet-type="Whale" />
 			</div>
 			<div class="col-1 animal-col">
-				<PetCard pet-type="Deer" />
+				<pet-card pet-type="Deer" />
 			</div>
 			<div class="col-5">
 				<span> Post Team Spacer </span>

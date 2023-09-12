@@ -8,7 +8,7 @@
 			:class="{'user-pet': isUser(), 'opponent-pet': isOpponent()}" 
 			:src="getPetImagePath()" />
 
-		<img class="pet-pedestal-img" src="../../assets/images//layout/shop-pedestal-with-shadow.png" />
+		<img class="pet-pedestal-img" src="../../assets/images/layout/shop-pedestal-with-shadow.png" />
 
 		<img class="pet-stats-img" src="../../assets/images/layout/animal-stats-template.png" />
 
@@ -68,7 +68,7 @@ export default {
 		return this.petOwner === 'opponent';
 	},
 	getPetImagePath: function () {
-	  return '/src/assets/images/turtle-pack/pets/' + this.petName + '.webp';
+	  return '/src/assets/images/pets/' + this.petName + '.webp';
 	},
 	getCardStyle: function () {
 		return 'width:' + this.cardWidth + 'rem;height:' + this.cardHeight + 'rem';
