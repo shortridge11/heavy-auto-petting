@@ -2,7 +2,7 @@
 	<div class="main-page">
 		<div class="row">		
 			<div class="col-4">
-				<span> Game Data Container </span>
+				<span> {{ getPetHealth('beaver') }} </span>
 			</div>
 			
 			<div class="col-4">
@@ -63,12 +63,16 @@
 <script>
 import CurrentLineup from './components/CurrentLineup.vue';
 import ShopPets from './components/ShopPets.vue';
+import MixinUtils from '../js/MixinUtils.vue';
 
 export default {
   name: 'ShopPage',
   props: {
     msg: String
   },
+  mixins: [
+	MixinUtils
+  ],
   components: {
     CurrentLineup,
 	ShopPets

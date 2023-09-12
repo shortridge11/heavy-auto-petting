@@ -1,0 +1,621 @@
+{
+  "pets": [
+    {
+      "name": "duck",
+      "display": "Duck",
+      "tier": 1,
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "beaver",
+      "display": "Beaver",
+      "tier": 1,
+      "attack": 3,
+      "health": 2
+    },
+    {
+      "name": "otter",
+      "display": "Otter",
+      "tier": 1,
+      "attack": 1,
+      "health": 3
+    },
+    {
+      "name": "pig",
+      "display": "Pig",
+      "tier": 1,
+      "attack": 4,
+      "health": 1
+    },
+    {
+      "name": "ant",
+      "display": "Ant",
+      "tier": 1,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "mosquito",
+      "display": "Mosquito",
+      "tier": 1,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "mouse",
+      "display": "Mouse",
+      "tier": 1,
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "fish",
+      "display": "Fish",
+      "tier": 1,
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "cricket",
+      "display": "Cricket",
+      "tier": 1,
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "horse",
+      "display": "Horse",
+      "tier": 1,
+      "attack": 2,
+      "health": 1
+    },
+    {
+      "name": "snail",
+      "display": "Snail",
+      "tier": 2,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "crab",
+      "display": "Crab",
+      "tier": 2,
+      "attack": 4,
+      "health": 1
+    },
+    {
+      "name": "swan",
+      "display": "Swan",
+      "tier": 2,
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "rat",
+      "display": "Rat",
+      "tier": 2,
+      "attack": 3,
+      "health": 6
+    },
+    {
+      "name": "hedgehog",
+      "display": "Hedgehog",
+      "tier": 2,
+      "attack": 3,
+      "health": 2
+    },
+    {
+      "name": "peacock",
+      "display": "Peacock",
+      "tier": 2,
+      "attack": 2,
+      "health": 5
+    },
+    {
+      "name": "flamingo",
+      "display": "Flamingo",
+      "tier": 2,
+      "attack": 3,
+      "health": 2
+    },
+    {
+      "name": "worm",
+      "display": "Worm",
+      "tier": 2,
+      "attack": 1,
+      "health": 3
+    },
+    {
+      "name": "kangaroo",
+      "display": "Kangaroo",
+      "tier": 2,
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "spider",
+      "display": "Spider",
+      "tier": 2,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "dodo",
+      "display": "Dodo",
+      "tier": 3,
+      "attack": 4,
+      "health": 2
+    },
+    {
+      "name": "badger",
+      "display": "Badger",
+      "tier": 3,
+      "attack": 6,
+      "health": 3
+    },
+    {
+      "name": "dolphin",
+      "display": "Dolphin",
+      "tier": 3,
+      "attack": 4,
+      "health": 3
+    },
+    {
+      "name": "giraffe",
+      "display": "Giraffe",
+      "tier": 3,
+      "attack": 1,
+      "health": 3
+    },
+    {
+      "name": "elephant",
+      "display": "Elephant",
+      "tier": 3,
+      "attack": 3,
+      "health": 7
+    },
+    {
+      "name": "camel",
+      "display": "Camel",
+      "tier": 3,
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "name": "rabbit",
+      "display": "Rabbit",
+      "tier": 3,
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "ox",
+      "display": "Ox",
+      "tier": 3,
+      "attack": 1,
+      "health": 3
+    },
+    {
+      "name": "dog",
+      "display": "Dog",
+      "tier": 3,
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "sheep",
+      "display": "Sheep",
+      "tier": 3,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "skunk",
+      "display": "Skunk",
+      "tier": 4,
+      "attack": 3,
+      "health": 5
+    },
+    {
+      "name": "hippo",
+      "display": "Hippo",
+      "tier": 4,
+      "attack": 4,
+      "health": 5
+    },
+    {
+      "name": "bison",
+      "display": "Bison",
+      "tier": 4,
+      "attack": 4,
+      "health": 4
+    },
+    {
+      "name": "blowfish",
+      "display": "Blowfish",
+      "tier": 4,
+      "attack": 3,
+      "health": 6
+    },
+    {
+      "name": "turtle",
+      "display": "Turtle",
+      "tier": 4,
+      "attack": 2,
+      "health": 5
+    },
+    {
+      "name": "squirrel",
+      "display": "Squirrel",
+      "tier": 4,
+      "attack": 2,
+      "health": 5
+    },
+    {
+      "name": "penguin",
+      "display": "Penguin",
+      "tier": 4,
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "name": "deer",
+      "display": "Deer",
+      "tier": 4,
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "whale",
+      "display": "Whale",
+      "tier": 4,
+      "attack": 3,
+      "health": 8
+    },
+    {
+      "name": "parrot",
+      "display": "Parrot",
+      "tier": 4,
+      "attack": 4,
+      "health": 2
+    },
+    {
+      "name": "scorpion",
+      "display": "Scorpion",
+      "tier": 5,
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "crocodile",
+      "display": "Crocodile",
+      "tier": 5,
+      "attack": 8,
+      "health": 4
+    },
+    {
+      "name": "rhino",
+      "display": "Rhino",
+      "tier": 5,
+      "attack": 6,
+      "health": 9
+    },
+    {
+      "name": "monkey",
+      "display": "Monkey",
+      "tier": 5,
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "armadillo",
+      "display": "Armadillo",
+      "tier": 5,
+      "attack": 2,
+      "health": 6
+    },
+    {
+      "name": "cow",
+      "display": "Cow",
+      "tier": 5,
+      "attack": 4,
+      "health": 6
+    },
+    {
+      "name": "seal",
+      "display": "Seal",
+      "tier": 5,
+      "attack": 3,
+      "health": 8
+    },
+    {
+      "name": "rooster",
+      "display": "Rooster",
+      "tier": 5,
+      "attack": 6,
+      "health": 4
+    },
+    {
+      "name": "shark",
+      "display": "Shark",
+      "tier": 5,
+      "attack": 4,
+      "health": 2
+    },
+    {
+      "name": "turkey",
+      "display": "Turkey",
+      "tier": 5,
+      "attack": 3,
+      "health": 4
+    },
+    {
+      "name": "leopard",
+      "display": "Leopard",
+      "tier": 6,
+      "attack": 10,
+      "health": 4
+    },
+    {
+      "name": "boar",
+      "display": "Boar",
+      "tier": 6,
+      "attack": 10,
+      "health": 6
+    },
+    {
+      "name": "tiger",
+      "display": "Tiger",
+      "tier": 6,
+      "attack": 6,
+      "health": 4
+    },
+    {
+      "name": "wolverine",
+      "display": "Wolverine",
+      "tier": 6,
+      "attack": 5,
+      "health": 4
+    },
+    {
+      "name": "gorilla",
+      "display": "Gorilla",
+      "tier": 6,
+      "attack": 7,
+      "health": 10
+    },
+    {
+      "name": "dragon",
+      "display": "Dragon",
+      "tier": 6,
+      "attack": 6,
+      "health": 8
+    },
+    {
+      "name": "mammoth",
+      "display": "Mammoth",
+      "tier": 6,
+      "attack": 4,
+      "health": 12
+    },
+    {
+      "name": "cat",
+      "display": "Cat",
+      "tier": 6,
+      "attack": 4,
+      "health": 5
+    },
+    {
+      "name": "snake",
+      "display": "snake",
+      "tier": 6,
+      "attack": 6,
+      "health": 6
+    },
+    {
+      "name": "fly",
+      "display": "Fly",
+      "tier": 6,
+      "attack": 5,
+      "health": 5
+    }
+  ],
+  "items": [
+    {
+      "name": "apple",
+      "display": "Apple",
+      "tier": 1,
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "honey",
+      "display": "Honey",
+      "tier": 1,
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "pill",
+      "display": "Sleeping Pill",
+      "tier": 2,
+      "attack": 0,
+      "health": 0
+    },
+    {
+      "name": "meat",
+      "display": "Meat Bone",
+      "tier": 2,
+      "attack": 3,
+      "health": 0
+    },
+    {
+      "name": "cupcake",
+      "display": "Cupcake",
+      "tier": 2,
+      "attack": 3,
+      "health": 3
+    },
+    {
+      "name": "salad",
+      "display": "Salad",
+      "tier": 3,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "garlic",
+      "display": "Garlic",
+      "tier": 3,
+      "attack": 0,
+      "health": 0
+    },
+    {
+      "name": "cannedFood",
+      "display": "Canned Food",
+      "tier": 4,
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "pear",
+      "display": "Pear",
+      "tier": 4,
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "chili",
+      "display": "Chili",
+      "tier": 5,
+      "attack": 5,
+      "health": 0
+    },
+    {
+      "name": "chocolate",
+      "display": "Chocolate",
+      "tier": 5,
+      "attack": 0,
+      "health": 0
+    },
+    {
+      "name": "sushi",
+      "display": "Sushi",
+      "tier": 5,
+      "attack": 3,
+      "health": 3
+    },
+    {
+      "name": "steak",
+      "display": "Steak",
+      "tier": 6,
+      "attack": 20,
+      "health": 0
+    },
+    {
+      "name": "melon",
+      "display": "Melon",
+      "tier": 6,
+      "attack": 0,
+      "health": 0
+    },
+    {
+      "name": "mushroom",
+      "display": "Mushroom",
+      "tier": 6,
+      "attack": 0,
+      "health": 0
+    },
+    {
+      "name": "pizza",
+      "display": "pizza",
+      "tier": 6,
+      "attack": 4,
+      "health": 4
+    }
+  ],
+  "packs": [
+    {
+        "name": "turtle",
+        "pets": [
+            "duck",
+            "beaver",
+            "otter",
+            "pig",
+            "ant",
+            "mosquito",
+            "mouse",
+            "fish",
+            "cricket",
+            "horse",
+            "snail",
+            "crab",
+            "swan",
+            "rat",
+            "hedgehog",
+            "peacock",
+            "flamingo",
+            "worm",
+            "kangaroo",
+            "spider",
+            "badger",
+            "dolphin",
+            "giraffe",
+            "elephant",
+            "camel",
+            "rabbit",
+            "ox",
+            "dog",
+            "sheep",
+            "skunk",
+            "hippo",
+            "bison",
+            "blowfish",
+            "turtle",
+            "squirrel",
+            "penguin",
+            "whale",
+            "parrot",
+            "scorpion",
+            "crocodile",
+            "rhino",
+            "monkey",
+            "armadillo",
+            "cow",
+            "seal",
+            "rooster",
+            "shark",
+            "turkey",
+            "leopard",
+            "boar",
+            "tiger",
+            "wolverine",
+            "gorilla",
+            "dragon",
+            "mammoth",
+            "cat",
+            "snake",
+            "fly"
+        ],
+        "items": [
+            "apple",
+            "honey",
+            "pill",
+            "meat",
+            "cupcake",
+            "salad",
+            "garlic",
+            "cannedFood",
+            "pear",
+            "chili",
+            "chocolate",
+            "sushi",
+            "steak",
+            "melon",
+            "mushroom",
+            "pizza"
+        ]
+    }
+  ]
+}
