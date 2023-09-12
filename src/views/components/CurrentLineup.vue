@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import PetDisplay from  './PetDisplay.vue';
+import EntityCard from  './EntityCard.vue';
 
 export default {
   name: 'CurrentLineup',
@@ -35,7 +35,7 @@ export default {
     msg: String
   },
   components: {
-	PetDisplay
+	EntityCard
   }
 }
 </script>

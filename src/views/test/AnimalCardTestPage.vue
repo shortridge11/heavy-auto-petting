@@ -10,13 +10,21 @@
         {{ cardHeight }} <Slider v-model="cardHeight" :lazy="false" orientation="vertical" :direction="rtl" :min="12" :max="36" />
       </div>
       <div class="col-3">
-        <PetDisplay petType="Beaver" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" petAttack="3" petHealth="2" />
+        <EntityCard 
+          entityType="Pet" entityName="Deer" entityTier="tier5" 
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" 
+          petAttack="1" petHealth="1" />
       </div>
       <div class="col-3">
-        <PetDisplay petType="Dragon" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" petAttack="50" petHealth="50" />
+        <EntityCard 
+          entityType="Pet" entityName="Dragon" entityTier="xp0" 
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" 
+          petAttack="50" petHealth="50" :petIsOpponent="true"/>
       </div>
       <div class="col-3">
-        <PetDisplay petType="Deer" :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" petAttack="1" petHealth="1" />
+        <EntityCard 
+          entityType="Item" entityName="Chocolate" entityTier="tier5" 
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
       </div>
       <div class="col-2">
         <!-- spacer -->
@@ -26,7 +34,7 @@
 </template>
 
 <script>
-import PetDisplay from '../components/PetDisplay.vue';
+import EntityCard from '../components/EntityCard.vue';
 import Slider from '@vueform/slider'
 
 export default {
@@ -35,15 +43,15 @@ export default {
     msg: String
   },
   components: {
-    PetDisplay,
+    EntityCard,
     Slider
   },
   methods: {
     getCardWidth: function () {
-      return this.cardWidth;
+      return Number(this.cardWidth);
     },
     getCardHeight: function () {
-      return this.cardHeight;
+      return Number(this.cardHeight);
     }
   },
   data() {
