@@ -5,19 +5,19 @@
 				<span> Pre Team Spacer </span>
 			</div>
 			<div class="col-1 animal-col">
-				<pet-display pet-type="Beaver" />
+				<PetCard pet-type="Beaver" />
 			</div>
 			<div class="col-1 animal-col">
-				<pet-display pet-type="Monkey" />
+				<PetCard pet-type="Monkey" />
 			</div>
 			<div class="col-1 animal-col">
-				<pet-display pet-type="Crocodile" />
+				<PetCard pet-type="Crocodile" />
 			</div>
 			<div class="col-1 animal-col">
-				<pet-display pet-type="Whale" />
+				<PetCard pet-type="Whale" />
 			</div>
 			<div class="col-1 animal-col">
-				<pet-display pet-type="Deer" />
+				<PetCard pet-type="Deer" />
 			</div>
 			<div class="col-5">
 				<span> Post Team Spacer </span>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import EntityCard from  './EntityCard.vue';
+import PetCard from  './PetCard.vue';
 
 export default {
   name: 'CurrentLineup',
@@ -35,7 +35,7 @@ export default {
     msg: String
   },
   components: {
-	EntityCard
+	PetCard,
   }
 }
 </script>
