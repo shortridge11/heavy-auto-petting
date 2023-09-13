@@ -10,23 +10,19 @@ export default {
     },
     methods: {
         findPet(name) {
-            return this.library.pets.find(pet => pet.name === name);
+            return this.library.pets.find(pet => pet.name === name.toLowerCase());
         },
         findItem(name) {
-            return this.library.items.find(item => item.name === name);
+            return this.library.items.find(item => item.name === name.toLowerCase());
         },
         getPetHealth(name) {
-            //return this.findPet(name).health;
-            return this.library.pets.find(pet => pet.name === name).health;
+            return this.findPet(name).health;
         },
         getPetAttack(name) {
-            //return this.findPet(name).attack;
-            return this.library.pets.find(pet => pet.name === name).attack;
+            return this.findPet(name).attack;
         },
         getPetTier(name) {
-            //return this.findPet(name).tier;
-            let self = this;
-            return self.library.pets.find(pet => pet.name === name).tier;
+            return this.findPet(name).tier;
         },
         getItemHealth(name) {
             return this.findItem(name).health;
