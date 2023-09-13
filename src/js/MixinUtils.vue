@@ -13,20 +13,30 @@ export default {
             return this.library.pets.find(pet => pet.name === name);
         },
         findItem(name) {
-            return this.library.items.find(pet => pet.name === name);
+            return this.library.items.find(item => item.name === name);
         },
         getPetHealth(name) {
-            return this.findPet(name).health;
+            //return this.findPet(name).health;
+            return this.library.pets.find(pet => pet.name === name).health;
         },
         getPetAttack(name) {
-            return this.findPet(name).attack;
+            //return this.findPet(name).attack;
+            return this.library.pets.find(pet => pet.name === name).attack;
+        },
+        getPetTier(name) {
+            //return this.findPet(name).tier;
+            let self = this;
+            return self.library.pets.find(pet => pet.name === name).tier;
         },
         getItemHealth(name) {
-            return this.findItem(name.health);
+            return this.findItem(name).health;
         },
         getItemAttack(name) {
-            return this.findItem(name.attack);
-        }
+            return this.findItem(name).attack;
+        },
+        getItemTier(name) {
+            return this.findItem(name).tier;
+        },
     }
 }
 </script>
