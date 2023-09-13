@@ -1,13 +1,15 @@
 <template>
 	<div class="shop-card" :style="getCardStyle()">
-		<img class="shop-tier-img" :src="getEntityTierPath()" />
+		<img class="shop-tier-img" :src="getTierPath()" />
 
-		<img class="shop-entity-img" :src="getEntityPath()" />
+		<img class="shop-entity-img" 
+			:class="{'shop-pet-img': isPet(), 'shop-item-img': isItem()}"
+			:src="getEntityPath()" />
 
-		<img class="shop-pedestal-img" src="../../assets/images//layout/shop-pedestal-with-shadow.png" />
+		<img class="shop-pedestal-img" src="../../assets/images//layout/shopPedestalWithShadow.png" />
 
 		<template v-if="isPet()">
-			<img class="shop-stats-img" src="../../assets/images/layout/animal-stats-template.png" />
+			<img class="shop-stats-img" src="../../assets/images/layout/animalStatsTemplate.png" />
 			<span class="card-text text-attack">{{getAttack()}}</span>
 			<span class="card-text text-health">{{getHealth()}}</span>
 		</template>
@@ -54,7 +56,6 @@ export default {
 	isItem: function () {
 		return this.entityType === 'item';
 	},
-
 	getCardStyle: function () {
 		return 'width:' + this.cardWidth + 'rem;height:' + this.cardHeight + 'rem';
 	},
@@ -62,14 +63,10 @@ export default {
 	  var subfolder = this.isPet() ? "pets" : "items";
       return '/src/assets/images/' + subfolder + '/' + this.entityName + '.webp';
     },
-	getEntityTierPath: function () {
-		//let self = this;
-		//var tier = this.isPet() ? MixinUtils.getPetTier(this.entityName) : MixinUtils.getItemTier(this.entityName);
+	getTierPath: function () {
 		var tier = this.isPet() ? this.getPetTier(this.entityName) : this.getItemTier(this.entityName);
-		//return '/src/assets/images/misc/Tier_' + tier + '_Icon.webp';
-		return '/src/assets/images/misc/Tier_' + tier + '_Icon.webp';
+		return '/src/assets/images/misc/iconTier' + tier + '.webp';
 	},
-
 	getAttack: function () {
 		return this.getPetAttack(this.entityName);
 	},
@@ -99,13 +96,23 @@ export default {
 	position: absolute;
 	
 	z-index: 2;
-	height: 60%;
+	max-width: 100%;
+	max-height: 60%;
+	width: auto;
+	height: auto;
 
 	top: 50%;
 	left: 50%;
-	
+}
+
+.shop-pet-img {
 	-webkit-transform: translate(-50%, -60%) scaleX(-1);
   	transform: translate(-50%, -60%) scaleX(-1);
+}
+
+.shop-item-img {
+	-webkit-transform: translate(-50%, -60%);
+  	transform: translate(-50%, -60%);
 }
 
 .shop-pedestal-img {

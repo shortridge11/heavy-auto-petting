@@ -10,10 +10,10 @@ export default {
     },
     methods: {
         findPet(name) {
-            return this.library.pets.find(pet => pet.name === name.toLowerCase());
+            return this.library.pets.find(pet => pet.name === name);
         },
         findItem(name) {
-            return this.library.items.find(item => item.name === name.toLowerCase());
+            return this.library.items.find(item => item.name === name);
         },
         getPetHealth(name) {
             return this.findPet(name).health;

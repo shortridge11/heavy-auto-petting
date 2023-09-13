@@ -35,7 +35,7 @@
       </div>
       <div class="col-2">
         <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Zombie_Fly" petOwner="opponent" :petAttack="3" :petHealth="2" :petXp="0" />
+          petName="zombieFly" petOwner="opponent" :petAttack="3" :petHealth="2" :petXp="0" />
       </div>
       <div class="col-1">
         <!-- spacer -->

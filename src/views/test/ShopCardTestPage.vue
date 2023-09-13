@@ -1,4 +1,6 @@
 <template>
+  <br />
+  <br />
 	<div class="container animal-card-test">
     <div class="row">
       <div class="col-12">
@@ -9,19 +11,27 @@
       <div class="col-1">
         <slider v-model="cardHeight" :lazy="false" orientation="vertical" :min="12" :max="36" />
       </div>
-      <div class="col-3">
-        <shop-card entityType="pet" entityName="Deer"
-          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
-      </div>
-      <div class="col-3">
-        <shop-card entityType="pet" entityName="Dragon"
-          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
-      </div>
-      <div class="col-3">
-        <shop-card entityType="Item" entityName="Chocolate"
+      <div class="col-2">
+        <shop-card entityType="pet" entityName="deer"
           :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
       </div>
       <div class="col-2">
+        <shop-card entityType="pet" entityName="dragon"
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
+      </div>
+      <div class="col-2">
+        <shop-card entityType="pet" entityName="badger"
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
+      </div>
+      <div class="col-2">
+        <shop-card entityType="item" entityName="chocolate"
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
+      </div>
+      <div class="col-2">
+        <shop-card entityType="item" entityName="sleepingPill"
+          :cardWidth="getCardWidth()" :cardHeight="getCardHeight()" />
+      </div>
+      <div class="col-1">
         <!-- spacer -->
       </div>
     </div>
@@ -43,11 +53,11 @@ export default {
   },
   methods: {
     getCardWidth: function () {
-      return this.cardWidth;
+      return Number(this.cardWidth);
     },
     getCardHeight: function () {
-      return this.cardHeight;
-    },
+      return Number(this.cardHeight);
+    }
   },
   data() {
     return {
