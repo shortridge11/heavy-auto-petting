@@ -524,8 +524,7 @@
     },
     {
       "name": "snake",
-      "display": "snake",
-      "image": "snake",
+      "display": "Snake",
       "tier": 6,
       "attack": 6,
       "health": 6,
@@ -559,7 +558,7 @@
       "health": 1
     },
     {
-      "name": "pill",
+      "name": "sleepingPill",
       "display": "Sleeping Pill",
       "image": "Sleeping_Pill",
       "tier": 2,
@@ -567,7 +566,7 @@
       "health": 0
     },
     {
-      "name": "meat",
+      "name": "meatBone",
       "display": "Meat Bone",
       "image": "Meat_Bone",
       "tier": 2,
@@ -583,9 +582,8 @@
       "health": 3
     },
     {
-      "name": "salad",
-      "display": "Salad",
-      "image": "Salad",
+      "name": "saladBowl",
+      "display": "Salad Bowl",
       "tier": 3,
       "attack": 2,
       "health": 2
@@ -737,10 +735,10 @@
         "items": [
             "apple",
             "honey",
-            "pill",
-            "meat",
+            "sleepingPill",
+            "meatBone",
             "cupcake",
-            "salad",
+            "saladBowl",
             "garlic",
             "cannedFood",
             "pear",
