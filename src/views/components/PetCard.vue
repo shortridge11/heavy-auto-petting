@@ -8,9 +8,9 @@
 			:class="{'user-pet': isUser(), 'opponent-pet': isOpponent()}" 
 			:src="getPetImagePath()" />
 
-		<img class="pet-pedestal-img" src="../../assets/images/layout/shop-pedestal-with-shadow.png" />
+		<img class="pet-pedestal-img" src="../../assets/images/layout/shopPedestalWithShadow.png" />
 
-		<img class="pet-stats-img" src="../../assets/images/layout/animal-stats-template.png" />
+		<img class="pet-stats-img" src="../../assets/images/layout/animalStatsTemplate.png" />
 
 		<span class="card-text text-attack">{{getPetAttack()}}</span>
 		<span class="card-text text-health">{{getPetHealth()}}</span>
@@ -112,7 +112,10 @@ export default {
 	position: absolute;
 	
 	z-index: 2;
-	height: 60%;
+	max-width:100%;
+	max-height: 60%;
+	width: auto;
+	height: auto;
 
 	top: 50%;
 	left: 50%;
