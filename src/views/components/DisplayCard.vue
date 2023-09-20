@@ -1,8 +1,10 @@
 <template>
 	<div class="pet-card" :style="getCardStyle()">
+        <v-select :options="assetList" label="display" :class="displaySelect ? '' : 'd-none'"
+        class="select" :clearable="false" ref="select" @option:selected="updateSelectedVal"/>
 		<img class="xp-or-tier" v-if="isPet" :src="getXpPath()" />
         <img class="xp-or-tier" v-if="isShop" :src="getTierPath()" />
-		<img class="pet-animal-img" :src="getPetImagePath()" />
+		<img class="pet-animal-img" :src="getPetImagePath()" @click="selectNewAsset" />
 		<img class="pet-pedestal-img" src="../../assets/images/layout/shopPedestalWithShadow.png" />
 
         <template v-if="!isShopFood">
@@ -10,12 +12,17 @@
             <span class="card-text text-attack">{{ asset.attack }}</span>
             <span class="card-text text-health">{{ asset.health }}</span>
         </template>
+
+        
 	</div>
 </template>
 
 <script>
+import MixinUtils from '../../js/MixinUtils.vue';
+
 export default {
     name: 'DisplayCard',
+    mixins: [MixinUtils],
     props: {
         asset: {
             type: Object,
@@ -27,10 +34,20 @@ export default {
             description: 'pet/shopPet/shopItem',
         },
     },
+    emits: [ 'updatePet' ],
     data:()=>({
         cardWidth: 8,
         cardHeight: 12,
+        assetList: [],
+        displaySelect: false,
     }),
+    mounted: function() {
+        if(this.isPet || this.isShopPet) {
+            this.assetList = this.getAllPets();
+        } else if (this.isShopFood) {
+            this.assetList = this.getAllItems();
+        }
+    },
     methods: {
         getPetImagePath: function () {
             let path = '';
@@ -50,19 +67,33 @@ export default {
         getTierPath: function () {
             return '/src/assets/images/misc/iconTier' + this.asset.tier + '.webp';
         },
+        selectNewAsset: function () {
+            this.displaySelect = true;
+            this.$refs.select.open = true;
+        },
+        updateSelectedVal: function (newVal) {
+            let self = this;
+            let asset = {
+                name: newVal.name,
+                index: self.asset.index
+            }
+            this.$emit('updateAsset', asset)
+            this.displaySelect = false;
+        }
     },
     computed: {
         isPet: function () { return this.type === 'pet'; },
         isShopPet: function () { return this.type === 'shopPet'; },
         isShopFood: function () { return this.type === 'shopItem'; },
         isShop: function () { return this.isShopFood || this.isShopPet; },
-    }
+    },
 }
 </script>
 
 <style scoped lang="scss">
 .pet-card {
 	position: relative;
+    cursor: pointer;
 }
 
 .xp-or-tier {
@@ -114,11 +145,15 @@ export default {
 
 .text-attack {
 	left: 25%;
-	transform:translateX(-50%)
+	transform:translateX(-50%);
 }
 
 .text-health {
 	right: 25%;
-	transform:translateX(50%)
+	transform:translateX(50%);
+}
+
+.select {
+    z-index: 10;
 }
 </style>

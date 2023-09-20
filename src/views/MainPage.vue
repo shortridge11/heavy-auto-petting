@@ -2,10 +2,10 @@
 	<div class="main-page">
 		<div class="row">
 			<div class="col-12 lineup-col">
-				<current-lineup :pets="lineup" />
+				<current-lineup :pets="lineup" @updatePet="updateCurrentLineup" />
 			</div>
 			<div class="col-12 shop-col">
-				<display-shop :pets="shopPets" :items="shopItems" />
+				<display-shop :pets="shopPets" :items="shopItems" @updatePet="updateShopPet" @updateItem="updateShopItem" />
 			</div>
 			<div class="col-12">
 				<button-row/>
@@ -37,18 +37,39 @@ export default {
 		tier: 1,
 	}),
 	mounted: function() {
-		this.lineup.push(this.findPet('beaver'));
-		this.lineup.push(this.findPet('monkey'));
-		this.lineup.push(this.findPet('crocodile'));
-		this.lineup.push(this.findPet('whale'));
-		this.lineup.push(this.findPet('deer'));
+		this.initializeArrays(this.findPet('beaver'), this.lineup);
+		this.initializeArrays(this.findPet('monkey'), this.lineup);
+		this.initializeArrays(this.findPet('crocodile'), this.lineup);
+		this.initializeArrays(this.findPet('whale'), this.lineup);
+		this.initializeArrays(this.findPet('deer'), this.lineup);
 
-		this.shopPets.push(this.findPet('dragon'));
-		this.shopPets.push(this.findPet('skunk'));
-		this.shopPets.push(this.findPet('seal'));
+		this.initializeArrays(this.findPet('dragon'), this.shopPets);
+		this.initializeArrays(this.findPet('skunk'), this.shopPets);
+		this.initializeArrays(this.findPet('seal'), this.shopPets);
 
-		this.shopItems.push(this.findItem('sleepingPill'));
-		this.shopItems.push(this.findItem('chocolate'));
+		this.initializeArrays(this.findItem('sleepingPill'), this.shopItems);
+		this.initializeArrays(this.findItem('chocolate'), this.shopItems);
+	},
+	methods: {
+		initializeArrays: function (pet, array) {
+			pet.index = array.length;
+			array.push(pet);
+		},
+		updateCurrentLineup: function (pet) {
+			let newPet = this.findPet(pet.name);
+			newPet.index = pet.index
+			this.lineup[pet.index] = newPet;
+		},
+		updateShopPet: function (pet) {
+			let newPet = this.findPet(pet.name);
+			newPet.index = pet.index
+			this.shopPets[pet.index] = newPet;
+		},
+		updateShopItem: function (item) {
+			let newItem = this.findItem(item.name);
+			newItem.index = item.index
+			this.shopItems[item.index] = newItem;
+		}
 	},
 }
 </script>
