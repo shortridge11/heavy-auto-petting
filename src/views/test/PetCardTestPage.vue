@@ -3,15 +3,15 @@
   <br/>
 	<div class="container animal-card-test">
     <div class="row">
-      <div class="col-1">
-        <!-- empty -->
-      </div>
-      <div class="col-10">
-        <slider v-model="cardWidth" :lazy="false" :min="6" :max="24" />
-      </div>
-      <div class="col-1">
-        <!-- empty -->
-      </div>
+        <div class="col-1">
+            <!-- empty -->
+        </div>
+        <div class="col-10">
+            <slider v-model="cardWidth" :lazy="false" :min="6" :max="24" />
+        </div>
+        <div class="col-1">
+            <!-- empty -->
+        </div>
     </div>
     <div class="row">
       <div class="col-1">
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import PetCard from '../components/PetCard.vue';
+import DisplayCard from '../components/DisplayCard.vue';
 import Slider from '@vueform/slider'
 
 export default {
@@ -54,7 +54,7 @@ export default {
     msg: String
   },
   components: {
-    PetCard,
+    DisplayCard,
     Slider
   },
   methods: {

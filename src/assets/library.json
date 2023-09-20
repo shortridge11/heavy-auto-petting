@@ -5,420 +5,480 @@
       "display": "Duck",
       "tier": 1,
       "attack": 2,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "beaver",
       "display": "Beaver",
       "tier": 1,
       "attack": 3,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "otter",
       "display": "Otter",
       "tier": 1,
       "attack": 1,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "pig",
       "display": "Pig",
       "tier": 1,
       "attack": 4,
-      "health": 1
+      "health": 1,
+      "xp": 0
     },
     {
       "name": "ant",
       "display": "Ant",
       "tier": 1,
       "attack": 2,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "mosquito",
       "display": "Mosquito",
       "tier": 1,
       "attack": 2,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "mouse",
       "display": "Mouse",
       "tier": 1,
       "attack": 1,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "fish",
       "display": "Fish",
       "tier": 1,
       "attack": 2,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "cricket",
       "display": "Cricket",
       "tier": 1,
       "attack": 1,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "horse",
       "display": "Horse",
       "tier": 1,
       "attack": 2,
-      "health": 1
+      "health": 1,
+      "xp": 0
     },
     {
       "name": "snail",
       "display": "Snail",
       "tier": 2,
       "attack": 2,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "crab",
       "display": "Crab",
       "tier": 2,
       "attack": 4,
-      "health": 1
+      "health": 1,
+      "xp": 0
     },
     {
       "name": "swan",
       "display": "Swan",
       "tier": 2,
       "attack": 1,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "rat",
       "display": "Rat",
       "tier": 2,
       "attack": 3,
-      "health": 6
+      "health": 6,
+      "xp": 0
     },
     {
       "name": "hedgehog",
       "display": "Hedgehog",
       "tier": 2,
       "attack": 3,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "peacock",
       "display": "Peacock",
       "tier": 2,
       "attack": 2,
-      "health": 5
+      "health": 5,
+      "xp": 0
     },
     {
       "name": "flamingo",
       "display": "Flamingo",
       "tier": 2,
       "attack": 3,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "worm",
       "display": "Worm",
       "tier": 2,
       "attack": 1,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "kangaroo",
       "display": "Kangaroo",
       "tier": 2,
       "attack": 2,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "spider",
       "display": "Spider",
       "tier": 2,
       "attack": 2,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "dodo",
       "display": "Dodo",
       "tier": 3,
       "attack": 4,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "badger",
       "display": "Badger",
       "tier": 3,
       "attack": 6,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "dolphin",
       "display": "Dolphin",
       "tier": 3,
       "attack": 4,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "giraffe",
       "display": "Giraffe",
       "tier": 3,
       "attack": 1,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "elephant",
       "display": "Elephant",
       "tier": 3,
       "attack": 3,
-      "health": 7
+      "health": 7,
+      "xp": 0
     },
     {
       "name": "camel",
       "display": "Camel",
       "tier": 3,
       "attack": 2,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "rabbit",
       "display": "Rabbit",
       "tier": 3,
       "attack": 1,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "ox",
       "display": "Ox",
       "tier": 3,
       "attack": 1,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "dog",
       "display": "Dog",
       "tier": 3,
       "attack": 2,
-      "health": 3
+      "health": 3,
+      "xp": 0
     },
     {
       "name": "sheep",
       "display": "Sheep",
       "tier": 3,
       "attack": 2,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "skunk",
       "display": "Skunk",
       "tier": 4,
       "attack": 3,
-      "health": 5
+      "health": 5,
+      "xp": 0
     },
     {
       "name": "hippo",
       "display": "Hippo",
       "tier": 4,
       "attack": 4,
-      "health": 5
+      "health": 5,
+      "xp": 0
     },
     {
       "name": "bison",
       "display": "Bison",
       "tier": 4,
       "attack": 4,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "blowfish",
       "display": "Blowfish",
       "tier": 4,
       "attack": 3,
-      "health": 6
+      "health": 6,
+      "xp": 0
     },
     {
       "name": "turtle",
       "display": "Turtle",
       "tier": 4,
       "attack": 2,
-      "health": 5
+      "health": 5,
+      "xp": 0
     },
     {
       "name": "squirrel",
       "display": "Squirrel",
       "tier": 4,
       "attack": 2,
-      "health": 5
+      "health": 5,
+      "xp": 0
     },
     {
       "name": "penguin",
       "display": "Penguin",
       "tier": 4,
       "attack": 2,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "deer",
       "display": "Deer",
       "tier": 4,
       "attack": 1,
-      "health": 1
+      "health": 1,
+      "xp": 0
     },
     {
       "name": "whale",
       "display": "Whale",
       "tier": 4,
       "attack": 3,
-      "health": 8
+      "health": 8,
+      "xp": 0
     },
     {
       "name": "parrot",
       "display": "Parrot",
       "tier": 4,
       "attack": 4,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "scorpion",
       "display": "Scorpion",
       "tier": 5,
       "attack": 1,
-      "health": 1
+      "health": 1,
+      "xp": 0
     },
     {
       "name": "crocodile",
       "display": "Crocodile",
       "tier": 5,
       "attack": 8,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "rhino",
       "display": "Rhino",
       "tier": 5,
       "attack": 6,
-      "health": 9
+      "health": 9,
+      "xp": 0
     },
     {
       "name": "monkey",
       "display": "Monkey",
       "tier": 5,
       "attack": 1,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "armadillo",
       "display": "Armadillo",
       "tier": 5,
       "attack": 2,
-      "health": 6
+      "health": 6,
+      "xp": 0
     },
     {
       "name": "cow",
       "display": "Cow",
       "tier": 5,
       "attack": 4,
-      "health": 6
+      "health": 6,
+      "xp": 0
     },
     {
       "name": "seal",
       "display": "Seal",
       "tier": 5,
       "attack": 3,
-      "health": 8
+      "health": 8,
+      "xp": 0
     },
     {
       "name": "rooster",
       "display": "Rooster",
       "tier": 5,
       "attack": 6,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "shark",
       "display": "Shark",
       "tier": 5,
       "attack": 4,
-      "health": 2
+      "health": 2,
+      "xp": 0
     },
     {
       "name": "turkey",
       "display": "Turkey",
       "tier": 5,
       "attack": 3,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "leopard",
       "display": "Leopard",
       "tier": 6,
       "attack": 10,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "boar",
       "display": "Boar",
       "tier": 6,
       "attack": 10,
-      "health": 6
+      "health": 6,
+      "xp": 0
     },
     {
       "name": "tiger",
       "display": "Tiger",
       "tier": 6,
       "attack": 6,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "wolverine",
       "display": "Wolverine",
       "tier": 6,
       "attack": 5,
-      "health": 4
+      "health": 4,
+      "xp": 0
     },
     {
       "name": "gorilla",
       "display": "Gorilla",
       "tier": 6,
       "attack": 7,
-      "health": 10
+      "health": 10,
+      "xp": 0
     },
     {
       "name": "dragon",
       "display": "Dragon",
       "tier": 6,
       "attack": 6,
-      "health": 8
+      "health": 8,
+      "xp": 0
     },
     {
       "name": "mammoth",
       "display": "Mammoth",
       "tier": 6,
       "attack": 4,
-      "health": 12
+      "health": 12,
+      "xp": 0
     },
     {
       "name": "cat",
       "display": "Cat",
       "tier": 6,
       "attack": 4,
-      "health": 5
+      "health": 5,
+      "xp": 0
     },
     {
       "name": "snake",
       "display": "Snake",
       "tier": 6,
       "attack": 6,
-      "health": 6
+      "health": 6,
+      "xp": 0
     },
     {
       "name": "fly",
       "display": "Fly",
       "tier": 6,
       "attack": 5,
-      "health": 5
+      "health": 5,
+      "xp": 0
     }
   ],
   "items": [
@@ -529,7 +589,7 @@
     },
     {
       "name": "pizza",
-      "display": "pizza",
+      "display": "Pizza",
       "tier": 6,
       "attack": 4,
       "health": 4
