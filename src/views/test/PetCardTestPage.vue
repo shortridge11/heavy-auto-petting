@@ -18,24 +18,24 @@
         <slider v-model="cardHeight" :lazy="false" orientation="vertical" :min="12" :max="36" />
       </div>
       <div class="col-2">
-        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Deer" petOwner="user" :petAttack="1" :petHealth="1" :petXp="0" />
+        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Deer" :petAttack="1" :petHealth="1" :petXp="0" />
       </div>
       <div class="col-2">
-        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Badger" petOwner="user" :petAttack="3" :petHealth="2" :petXp="0" />
+        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Badger" :petAttack="3" :petHealth="2" :petXp="0" />
       </div>
       <div class="col-2">
-        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Scorpion" petOwner="user" :petAttack="1" :petHealth="1" :petXp="0" />
+        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Scorpion" :petAttack="1" :petHealth="1" :petXp="0" />
       </div>
       <div class="col-2">
-        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Dragon" petOwner="opponent" :petAttack="50" :petHealth="44" :petXp="1"  />
+        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Dragon" :petAttack="50" :petHealth="44" :petXp="1"  />
       </div>
       <div class="col-2">
-        <pet-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Zombie_Fly" petOwner="opponent" :petAttack="3" :petHealth="2" :petXp="0" />
+        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Zombie_Fly" :petAttack="3" :petHealth="2" :petXp="0" />
       </div>
       <div class="col-1">
         <!-- spacer -->
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import PetCard from '../components/PetCard.vue';
+import DisplayCard from '../components/DisplayCard.vue';
 import Slider from '@vueform/slider'
 
 export default {
@@ -54,7 +54,7 @@ export default {
     msg: String
   },
   components: {
-    PetCard,
+    DisplayCard,
     Slider
   },
   methods: {

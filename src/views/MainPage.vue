@@ -1,60 +1,14 @@
 <template>
 	<div class="main-page">
-		<div class="row">		
-			<div class="col-4">
-				<span> {{ getPetHealth('beaver') }} </span>
-			</div>
-			
-			<div class="col-4">
-				<span> Data Spacer Column </span>
-			</div>
-			
-			<div class="col-4">
-				<span> Animal List; Menu Buttons </span>
-			</div>
-		</div>
-	
 		<div class="row">
+			<div class="col-12 lineup-col">
+				<current-lineup :pets="lineup" />
+			</div>
+			<div class="col-12 shop-col">
+				<display-shop :pets="shopPets" :items="shopItems" />
+			</div>
 			<div class="col-12">
-				<span> Spacer Row between Game-Data and Team </span>
-			</div>
-		</div>
-
-		<div class="row">	
-			<div class="col-12">
-				<current-lineup />
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-12">
-				<span> Spacer Row between Team and Shops </span>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-12">
-				<shop-pets />
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-12">
-				<span> Spacer Row between Shops and Bottom Row </span>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<span> Roll Button </span>
-			</div>
-			
-			<div class="col">
-				<span> Spacer between buttons </span>
-			</div>
-
-			<div class="col">
-				<span> End Turn Button </span>
+				<button-row/>
 			</div>
 		</div>
 	</div>
@@ -62,24 +16,49 @@
 
 <script>
 import CurrentLineup from './components/CurrentLineup.vue';
-import ShopPets from './components/ShopPets.vue';
+import DisplayShop from './components/DisplayShop.vue';
+import ButtonRow from './components/ButtonRow.vue';
 import MixinUtils from '../js/MixinUtils.vue';
 
 export default {
-  name: 'ShopPage',
-  props: {
-    msg: String
-  },
-  mixins: [
-	MixinUtils
-  ],
-  components: {
-    CurrentLineup,
-	ShopPets
-  }
+	name: 'MainPage',
+	mixins: [
+		MixinUtils
+	],
+	components: {
+		CurrentLineup,
+		DisplayShop,
+		ButtonRow,
+	},
+	data:()=>({
+		lineup: [],
+		shopPets: [],
+		shopItems: [],
+		tier: 1,
+	}),
+	mounted: function() {
+		this.lineup.push(this.findPet('beaver'));
+		this.lineup.push(this.findPet('monkey'));
+		this.lineup.push(this.findPet('crocodile'));
+		this.lineup.push(this.findPet('whale'));
+		this.lineup.push(this.findPet('deer'));
+
+		this.shopPets.push(this.findPet('dragon'));
+		this.shopPets.push(this.findPet('skunk'));
+		this.shopPets.push(this.findPet('seal'));
+
+		this.shopItems.push(this.findItem('pill'));
+		this.shopItems.push(this.findItem('chocolate'));
+	},
 }
 </script>
 
 <style scoped lang="scss">
+.lineup-col {
+    margin-top: 15%;
+}
 
+.shop-col {
+	margin-top: 2%;
+}
 </style>

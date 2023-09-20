@@ -2,41 +2,33 @@
 	<div id="team-container">
 		<div class="row">
 			<div class="col-2">
-				<span> Pre Team Spacer </span>
 			</div>
-			<div class="col-1 animal-col">
-				<pet-card pet-type="Beaver" />
-			</div>
-			<div class="col-1 animal-col">
-				<pet-card pet-type="Monkey" />
-			</div>
-			<div class="col-1 animal-col">
-				<pet-card pet-type="Crocodile" />
-			</div>
-			<div class="col-1 animal-col">
-				<pet-card pet-type="Whale" />
-			</div>
-			<div class="col-1 animal-col">
-				<pet-card pet-type="Deer" />
-			</div>
-			<div class="col-5">
-				<span> Post Team Spacer </span>
-			</div>
+			<template v-for="pet in pets" :key="pet.name">
+				<div class="col-1">
+					<display-card :asset="pet" type="pet" />
+				</div>
+			</template>
 		</div>
 	</div>
 </template>
 
 <script>
-import PetCard from  './PetCard.vue';
+import DisplayCard from  './DisplayCard.vue';
 
 export default {
-  name: 'CurrentLineup',
-  props: {
-    msg: String
-  },
-  components: {
-	PetCard,
-  }
+	name: 'CurrentLineup',
+	props: {
+		pets: {
+            type: Array,
+            required: true,
+        },
+	},
+	components: {
+		DisplayCard,
+	},
+	mounted: function() {
+		console.log(this.pets)
+	}
 }
 </script>
 
