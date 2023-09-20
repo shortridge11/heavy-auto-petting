@@ -5,14 +5,14 @@
 			</div>
 			<template v-for="pet in pets" :key="pet.name">
 				<div class="col-1">
-					<display-card :asset="pet" type="shopPet" />
+					<display-card :asset="pet" type="shopPet" @updateAsset="updatePet" />
 				</div>
 			</template>
 			<div class="col-3">
 			</div>
 			<template v-for="item in items" :key="item.name">
 				<div class="col-1">
-					<display-card :asset="item" type="shopItem" />
+					<display-card :asset="item" type="shopItem" @updateAsset="updateItem" />
 				</div>
 			</template>
 		</div>
@@ -39,8 +39,16 @@ export default {
 		},
 	},
 	components: {
-			DisplayCard,
-		}
+		DisplayCard,
+	},
+	methods: {
+		updatePet: function (pet) {
+			this.$emit('updatePet', pet)
+		},
+		updateItem: function (item) {
+			this.$emit('updateItem', item)
+		},
+	}
 }
 </script>
 

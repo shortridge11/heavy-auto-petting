@@ -33,6 +33,18 @@ export default {
         getItemTier(name) {
             return this.findItem(name).tier;
         },
+        getAllPets() {
+            return this.library.pets;
+        },
+        getAllItems() {
+            return this.library.items;
+        },
+        getAllPetDisplayNames() {
+            return this.getAllPets().map(pet => pet.display);
+        },
+        getAllItemDisplayNames() {
+            return this.getAllItems().map(item => item.display);
+        },
     }
 }
 </script>

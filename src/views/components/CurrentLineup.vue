@@ -5,7 +5,7 @@
 			</div>
 			<template v-for="pet in pets" :key="pet.name">
 				<div class="col-1">
-					<display-card :asset="pet" type="pet" />
+					<display-card :asset="pet" type="pet" @updatePet="updatePet" />
 				</div>
 			</template>
 		</div>
@@ -26,8 +26,13 @@ export default {
 	components: {
 		DisplayCard,
 	},
+	methods: {
+		updatePet: function (pet) {
+			console.log('lineup')
+			this.$emit('updatePet', pet)
+		},
+	},
 	mounted: function() {
-		console.log(this.pets)
 	}
 }
 </script>
