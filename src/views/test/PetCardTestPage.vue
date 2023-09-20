@@ -2,49 +2,46 @@
   <br/>
   <br/>
 	<div class="container animal-card-test">
-    <div class="row">
-      <div class="col-1">
-        <!-- empty -->
-      </div>
-      <div class="col-10">
-        <slider v-model="cardWidth" :lazy="false" :min="6" :max="24" />
-      </div>
-      <div class="col-1">
-        <!-- empty -->
-      </div>
+        <div class="row">
+            <div class="col-1">
+                <!-- empty -->
+            </div>
+            <div class="col-10">
+                <slider v-model="cardWidth" :lazy="false" :min="6" :max="24" />
+            </div>
+            <div class="col-1">
+                <!-- empty -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <slider v-model="cardHeight" :lazy="false" orientation="vertical" :min="12" :max="36" />
+            </div>
+            <div class="col-2">
+                <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+                    asset="Deer" type="pet" />
+            </div>
+            <div class="col-2">
+                <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+                    asset="Badger" type="pet" />
+            </div>
+            <div class="col-2">
+                <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+                    asset="Scorpion" type="pet" />
+            </div>
+            <div class="col-2">
+                <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+                    asset="Dragon" type="pet" />
+            </div>
+            <div class="col-2">
+                <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+                    asset="Beaver" type="pet" />
+            </div>
+            <div class="col-1">
+                <!-- spacer -->
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-1">
-        <slider v-model="cardHeight" :lazy="false" orientation="vertical" :min="12" :max="36" />
-      </div>
-      <div class="col-2">
-        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Deer" :petAttack="1" :petHealth="1" :petXp="0" />
-      </div>
-      <div class="col-2">
-        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Badger" :petAttack="3" :petHealth="2" :petXp="0" />
-      </div>
-      <div class="col-2">
-        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Scorpion" :petAttack="1" :petHealth="1" :petXp="0" />
-      </div>
-      <div class="col-2">
-        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Dragon" :petAttack="50" :petHealth="44" :petXp="1"  />
-      </div>
-      <div class="col-2">
-        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Zombie_Fly" :petAttack="3" :petHealth="2" :petXp="0" />
-
-        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
-          petName="Zombie_Fly" :petAttack="3" :petHealth="2" :petXp="0" />
-      </div>
-      <div class="col-1">
-        <!-- spacer -->
-      </div>
-    </div>
-	</div>
 </template>
 
 <script>

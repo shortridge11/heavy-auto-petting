@@ -3,10 +3,10 @@
 		<img class="xp-or-tier" v-if="isPet" :src="getXpPath()" />
         <img class="xp-or-tier" v-if="isShop" :src="getTierPath()" />
 		<img class="pet-animal-img" :src="getPetImagePath()" />
-		<img class="pet-pedestal-img" src="../../assets/images/layout/shop-pedestal-with-shadow.png" />
+		<img class="pet-pedestal-img" src="../../assets/images/layout/shopPedestalWithShadow.png" />
 
         <template v-if="!isShopFood">
-            <img class="pet-stats-img" src="../../assets/images/layout/animal-stats-template.png" />
+            <img class="pet-stats-img" src="../../assets/images/layout/animalStatsTemplate.png" />
             <span class="card-text text-attack">{{ asset.attack }}</span>
             <span class="card-text text-health">{{ asset.health }}</span>
         </template>
@@ -35,9 +35,9 @@ export default {
         getPetImagePath: function () {
             let path = '';
             if(this.isPet || this.isShopPet) {
-                path = '/src/assets/images/pets/' + this.asset.image + '.webp';
+                path = '/src/assets/images/pets/' + this.asset.name + '.webp';
             } else if (this.isShopFood) {
-                path = '/src/assets/images/items/' + this.asset.image + '.webp';
+                path = '/src/assets/images/items/' + this.asset.name + '.webp';
             }
             return path;
         },
@@ -48,7 +48,7 @@ export default {
             return '/src/assets/images/misc/xp' + this.asset.xp + '.png';
         },
         getTierPath: function () {
-            return '/src/assets/images/misc/Tier_' + this.asset.tier + '_Icon.webp';
+            return '/src/assets/images/misc/iconTier' + this.asset.tier + '.webp';
         },
     },
     computed: {

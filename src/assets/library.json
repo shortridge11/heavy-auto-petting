@@ -3,7 +3,6 @@
     {
       "name": "duck",
       "display": "Duck",
-      "image": "Duck",
       "tier": 1,
       "attack": 2,
       "health": 3,
@@ -12,7 +11,6 @@
     {
       "name": "beaver",
       "display": "Beaver",
-      "image": "Beaver",
       "tier": 1,
       "attack": 3,
       "health": 2,
@@ -21,7 +19,6 @@
     {
       "name": "otter",
       "display": "Otter",
-      "image": "Otter",
       "tier": 1,
       "attack": 1,
       "health": 3,
@@ -30,7 +27,6 @@
     {
       "name": "pig",
       "display": "Pig",
-      "image": "Pig",
       "tier": 1,
       "attack": 4,
       "health": 1,
@@ -39,7 +35,6 @@
     {
       "name": "ant",
       "display": "Ant",
-      "image": "Ant",
       "tier": 1,
       "attack": 2,
       "health": 2,
@@ -48,7 +43,6 @@
     {
       "name": "mosquito",
       "display": "Mosquito",
-      "image": "Mosquito",
       "tier": 1,
       "attack": 2,
       "health": 2,
@@ -57,7 +51,6 @@
     {
       "name": "mouse",
       "display": "Mouse",
-      "image": "Mouse",
       "tier": 1,
       "attack": 1,
       "health": 2,
@@ -66,7 +59,6 @@
     {
       "name": "fish",
       "display": "Fish",
-      "image": "Fish",
       "tier": 1,
       "attack": 2,
       "health": 3,
@@ -75,7 +67,6 @@
     {
       "name": "cricket",
       "display": "Cricket",
-      "image": "Cricket",
       "tier": 1,
       "attack": 1,
       "health": 2,
@@ -84,7 +75,6 @@
     {
       "name": "horse",
       "display": "Horse",
-      "image": "Horse",
       "tier": 1,
       "attack": 2,
       "health": 1,
@@ -93,7 +83,6 @@
     {
       "name": "snail",
       "display": "Snail",
-      "image": "Snail",
       "tier": 2,
       "attack": 2,
       "health": 2,
@@ -102,7 +91,6 @@
     {
       "name": "crab",
       "display": "Crab",
-      "image": "Crab",
       "tier": 2,
       "attack": 4,
       "health": 1,
@@ -111,7 +99,6 @@
     {
       "name": "swan",
       "display": "Swan",
-      "image": "Swan",
       "tier": 2,
       "attack": 1,
       "health": 2,
@@ -120,7 +107,6 @@
     {
       "name": "rat",
       "display": "Rat",
-      "image": "Rat",
       "tier": 2,
       "attack": 3,
       "health": 6,
@@ -129,7 +115,6 @@
     {
       "name": "hedgehog",
       "display": "Hedgehog",
-      "image": "Hedgehog",
       "tier": 2,
       "attack": 3,
       "health": 2,
@@ -138,7 +123,6 @@
     {
       "name": "peacock",
       "display": "Peacock",
-      "image": "Peacock",
       "tier": 2,
       "attack": 2,
       "health": 5,
@@ -147,7 +131,6 @@
     {
       "name": "flamingo",
       "display": "Flamingo",
-      "image": "Flamingo",
       "tier": 2,
       "attack": 3,
       "health": 2,
@@ -156,7 +139,6 @@
     {
       "name": "worm",
       "display": "Worm",
-      "image": "Worm",
       "tier": 2,
       "attack": 1,
       "health": 3,
@@ -165,7 +147,6 @@
     {
       "name": "kangaroo",
       "display": "Kangaroo",
-      "image": "Kangaroo",
       "tier": 2,
       "attack": 2,
       "health": 3,
@@ -174,7 +155,6 @@
     {
       "name": "spider",
       "display": "Spider",
-      "image": "Spider",
       "tier": 2,
       "attack": 2,
       "health": 2,
@@ -183,7 +163,6 @@
     {
       "name": "dodo",
       "display": "Dodo",
-      "image": "Dodo",
       "tier": 3,
       "attack": 4,
       "health": 2,
@@ -192,7 +171,6 @@
     {
       "name": "badger",
       "display": "Badger",
-      "image": "Badger",
       "tier": 3,
       "attack": 6,
       "health": 3,
@@ -201,7 +179,6 @@
     {
       "name": "dolphin",
       "display": "Dolphin",
-      "image": "ODolphintter",
       "tier": 3,
       "attack": 4,
       "health": 3,
@@ -210,7 +187,6 @@
     {
       "name": "giraffe",
       "display": "Giraffe",
-      "image": "Giraffe",
       "tier": 3,
       "attack": 1,
       "health": 3,
@@ -219,7 +195,6 @@
     {
       "name": "elephant",
       "display": "Elephant",
-      "image": "Elephant",
       "tier": 3,
       "attack": 3,
       "health": 7,
@@ -228,7 +203,6 @@
     {
       "name": "camel",
       "display": "Camel",
-      "image": "Camel",
       "tier": 3,
       "attack": 2,
       "health": 4,
@@ -237,7 +211,6 @@
     {
       "name": "rabbit",
       "display": "Rabbit",
-      "image": "Rabbit",
       "tier": 3,
       "attack": 1,
       "health": 2,
@@ -246,7 +219,6 @@
     {
       "name": "ox",
       "display": "Ox",
-      "image": "Ox",
       "tier": 3,
       "attack": 1,
       "health": 3,
@@ -255,7 +227,6 @@
     {
       "name": "dog",
       "display": "Dog",
-      "image": "Dog",
       "tier": 3,
       "attack": 2,
       "health": 3,
@@ -264,7 +235,6 @@
     {
       "name": "sheep",
       "display": "Sheep",
-      "image": "Sheep",
       "tier": 3,
       "attack": 2,
       "health": 2,
@@ -273,7 +243,6 @@
     {
       "name": "skunk",
       "display": "Skunk",
-      "image": "Skunk",
       "tier": 4,
       "attack": 3,
       "health": 5,
@@ -282,7 +251,6 @@
     {
       "name": "hippo",
       "display": "Hippo",
-      "image": "Hippo",
       "tier": 4,
       "attack": 4,
       "health": 5,
@@ -291,7 +259,6 @@
     {
       "name": "bison",
       "display": "Bison",
-      "image": "Bison",
       "tier": 4,
       "attack": 4,
       "health": 4,
@@ -300,7 +267,6 @@
     {
       "name": "blowfish",
       "display": "Blowfish",
-      "image": "Blowfish",
       "tier": 4,
       "attack": 3,
       "health": 6,
@@ -309,7 +275,6 @@
     {
       "name": "turtle",
       "display": "Turtle",
-      "image": "Turtle",
       "tier": 4,
       "attack": 2,
       "health": 5,
@@ -318,7 +283,6 @@
     {
       "name": "squirrel",
       "display": "Squirrel",
-      "image": "Squirrel",
       "tier": 4,
       "attack": 2,
       "health": 5,
@@ -327,7 +291,6 @@
     {
       "name": "penguin",
       "display": "Penguin",
-      "image": "Penguin",
       "tier": 4,
       "attack": 2,
       "health": 4,
@@ -336,7 +299,6 @@
     {
       "name": "deer",
       "display": "Deer",
-      "image": "Deer",
       "tier": 4,
       "attack": 1,
       "health": 1,
@@ -345,7 +307,6 @@
     {
       "name": "whale",
       "display": "Whale",
-      "image": "Whale",
       "tier": 4,
       "attack": 3,
       "health": 8,
@@ -354,7 +315,6 @@
     {
       "name": "parrot",
       "display": "Parrot",
-      "image": "Parrot",
       "tier": 4,
       "attack": 4,
       "health": 2,
@@ -363,7 +323,6 @@
     {
       "name": "scorpion",
       "display": "Scorpion",
-      "image": "Scorpion",
       "tier": 5,
       "attack": 1,
       "health": 1,
@@ -372,7 +331,6 @@
     {
       "name": "crocodile",
       "display": "Crocodile",
-      "image": "Crocodile",
       "tier": 5,
       "attack": 8,
       "health": 4,
@@ -381,7 +339,6 @@
     {
       "name": "rhino",
       "display": "Rhino",
-      "image": "Rhino",
       "tier": 5,
       "attack": 6,
       "health": 9,
@@ -390,7 +347,6 @@
     {
       "name": "monkey",
       "display": "Monkey",
-      "image": "Monkey",
       "tier": 5,
       "attack": 1,
       "health": 2,
@@ -399,7 +355,6 @@
     {
       "name": "armadillo",
       "display": "Armadillo",
-      "image": "Armadillo",
       "tier": 5,
       "attack": 2,
       "health": 6,
@@ -408,7 +363,6 @@
     {
       "name": "cow",
       "display": "Cow",
-      "image": "Cow",
       "tier": 5,
       "attack": 4,
       "health": 6,
@@ -417,7 +371,6 @@
     {
       "name": "seal",
       "display": "Seal",
-      "image": "Seal",
       "tier": 5,
       "attack": 3,
       "health": 8,
@@ -426,7 +379,6 @@
     {
       "name": "rooster",
       "display": "Rooster",
-      "image": "Rooster",
       "tier": 5,
       "attack": 6,
       "health": 4,
@@ -435,7 +387,6 @@
     {
       "name": "shark",
       "display": "Shark",
-      "image": "Shark",
       "tier": 5,
       "attack": 4,
       "health": 2,
@@ -444,7 +395,6 @@
     {
       "name": "turkey",
       "display": "Turkey",
-      "image": "Turkey",
       "tier": 5,
       "attack": 3,
       "health": 4,
@@ -453,7 +403,6 @@
     {
       "name": "leopard",
       "display": "Leopard",
-      "image": "Leopard",
       "tier": 6,
       "attack": 10,
       "health": 4,
@@ -462,7 +411,6 @@
     {
       "name": "boar",
       "display": "Boar",
-      "image": "Boar",
       "tier": 6,
       "attack": 10,
       "health": 6,
@@ -471,7 +419,6 @@
     {
       "name": "tiger",
       "display": "Tiger",
-      "image": "Tiger",
       "tier": 6,
       "attack": 6,
       "health": 4,
@@ -480,7 +427,6 @@
     {
       "name": "wolverine",
       "display": "Wolverine",
-      "image": "Wolverine",
       "tier": 6,
       "attack": 5,
       "health": 4,
@@ -489,7 +435,6 @@
     {
       "name": "gorilla",
       "display": "Gorilla",
-      "image": "Gorilla",
       "tier": 6,
       "attack": 7,
       "health": 10,
@@ -498,7 +443,6 @@
     {
       "name": "dragon",
       "display": "Dragon",
-      "image": "Dragon",
       "tier": 6,
       "attack": 6,
       "health": 8,
@@ -507,7 +451,6 @@
     {
       "name": "mammoth",
       "display": "Mammoth",
-      "image": "Mammoth",
       "tier": 6,
       "attack": 4,
       "health": 12,
@@ -516,7 +459,6 @@
     {
       "name": "cat",
       "display": "Cat",
-      "image": "Cat",
       "tier": 6,
       "attack": 4,
       "health": 5,
@@ -524,12 +466,7 @@
     },
     {
       "name": "snake",
-<<<<<<< HEAD
       "display": "Snake",
-=======
-      "display": "snake",
-      "image": "snake",
->>>>>>> 4dfa0d5 (we now pass whole objects into components)
       "tier": 6,
       "attack": 6,
       "health": 6,
@@ -538,7 +475,6 @@
     {
       "name": "fly",
       "display": "Fly",
-      "image": "Fly",
       "tier": 6,
       "attack": 5,
       "health": 5,
@@ -549,7 +485,6 @@
     {
       "name": "apple",
       "display": "Apple",
-      "image": "Apple",
       "tier": 1,
       "attack": 1,
       "health": 1
@@ -557,7 +492,6 @@
     {
       "name": "honey",
       "display": "Honey",
-      "image": "Honey",
       "tier": 1,
       "attack": 1,
       "health": 1
@@ -565,7 +499,6 @@
     {
       "name": "sleepingPill",
       "display": "Sleeping Pill",
-      "image": "Sleeping_Pill",
       "tier": 2,
       "attack": 0,
       "health": 0
@@ -573,7 +506,6 @@
     {
       "name": "meatBone",
       "display": "Meat Bone",
-      "image": "Meat_Bone",
       "tier": 2,
       "attack": 3,
       "health": 0
@@ -581,20 +513,13 @@
     {
       "name": "cupcake",
       "display": "Cupcake",
-      "image": "Cupcake",
       "tier": 2,
       "attack": 3,
       "health": 3
     },
     {
-<<<<<<< HEAD
       "name": "saladBowl",
       "display": "Salad Bowl",
-=======
-      "name": "salad",
-      "display": "Salad",
-      "image": "Salad",
->>>>>>> 4dfa0d5 (we now pass whole objects into components)
       "tier": 3,
       "attack": 2,
       "health": 2
@@ -602,7 +527,6 @@
     {
       "name": "garlic",
       "display": "Garlic",
-      "image": "Garlic",
       "tier": 3,
       "attack": 0,
       "health": 0
@@ -610,7 +534,6 @@
     {
       "name": "cannedFood",
       "display": "Canned Food",
-      "image": "Canned_Food",
       "tier": 4,
       "attack": 1,
       "health": 1
@@ -618,7 +541,6 @@
     {
       "name": "pear",
       "display": "Pear",
-      "image": "Pear",
       "tier": 4,
       "attack": 2,
       "health": 2
@@ -626,7 +548,6 @@
     {
       "name": "chili",
       "display": "Chili",
-      "image": "Chili",
       "tier": 5,
       "attack": 5,
       "health": 0
@@ -634,7 +555,6 @@
     {
       "name": "chocolate",
       "display": "Chocolate",
-      "image": "Chocolate",
       "tier": 5,
       "attack": 0,
       "health": 0
@@ -642,7 +562,6 @@
     {
       "name": "sushi",
       "display": "Sushi",
-      "image": "Sushi",
       "tier": 5,
       "attack": 3,
       "health": 3
@@ -650,7 +569,6 @@
     {
       "name": "steak",
       "display": "Steak",
-      "image": "Steak",
       "tier": 6,
       "attack": 20,
       "health": 0
@@ -658,7 +576,6 @@
     {
       "name": "melon",
       "display": "Melon",
-      "image": "Melon",
       "tier": 6,
       "attack": 0,
       "health": 0
@@ -666,7 +583,6 @@
     {
       "name": "mushroom",
       "display": "Mushroom",
-      "image": "Mushroom",
       "tier": 6,
       "attack": 0,
       "health": 0
@@ -674,7 +590,6 @@
     {
       "name": "pizza",
       "display": "Pizza",
-      "image": "Pizza",
       "tier": 6,
       "attack": 4,
       "health": 4

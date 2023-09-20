@@ -47,7 +47,7 @@ export default {
 		this.shopPets.push(this.findPet('skunk'));
 		this.shopPets.push(this.findPet('seal'));
 
-		this.shopItems.push(this.findItem('pill'));
+		this.shopItems.push(this.findItem('sleepingPill'));
 		this.shopItems.push(this.findItem('chocolate'));
 	},
 }
