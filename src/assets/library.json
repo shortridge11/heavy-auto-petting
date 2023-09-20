@@ -524,7 +524,12 @@
     },
     {
       "name": "snake",
+<<<<<<< HEAD
       "display": "Snake",
+=======
+      "display": "snake",
+      "image": "snake",
+>>>>>>> 4dfa0d5 (we now pass whole objects into components)
       "tier": 6,
       "attack": 6,
       "health": 6,
@@ -582,8 +587,14 @@
       "health": 3
     },
     {
+<<<<<<< HEAD
       "name": "saladBowl",
       "display": "Salad Bowl",
+=======
+      "name": "salad",
+      "display": "Salad",
+      "image": "Salad",
+>>>>>>> 4dfa0d5 (we now pass whole objects into components)
       "tier": 3,
       "attack": 2,
       "health": 2

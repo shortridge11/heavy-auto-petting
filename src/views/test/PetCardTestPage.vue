@@ -36,6 +36,9 @@
       <div class="col-2">
         <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
           petName="Zombie_Fly" :petAttack="3" :petHealth="2" :petXp="0" />
+
+        <display-card :cardWidth="getCardWidth()" :cardHeight="getCardHeight()"
+          petName="Zombie_Fly" :petAttack="3" :petHealth="2" :petXp="0" />
       </div>
       <div class="col-1">
         <!-- spacer -->
